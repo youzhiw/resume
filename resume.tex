@@ -1,0 +1,104 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+% \usepackage{CJKutf8}
+% \usepackage{tabularx}
+% \usepackage{array}
+\usepackage{comment}
+% \usepackage{times}
+
+
+%====================
+% File:         resume.tex
+% Modifying author:       https://github.com/gobborg 
+% Last Updated: Dec 26, 2021
+% Notes:        I just made it prettier and better suited to
+%               my needs.
+%====================
+
+%====================
+% File:         resume.tex
+% Original author:       https://github.com/TimmyChan 
+%               https://www.linkedin.com/in/timmy-l-chan/
+% Last Updated: Nov 19, 2021
+% Notes:        All formatting is done in TLCresume.sty
+%               No need to touch that file. 
+%               All actual content is in the sections/ folder.
+%====================
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\author{\textbf{Youzhi Wang}} % Name Here}
+\def\phone{+1 805 637 9110}
+\def\city{New York City}
+\def\email{yw4196@columbia.edu}
+\def\LinkedIn{youzhi-wang/} % linkedin.com/in/______
+\def\github{youzhiw} % github username
+\def\role{} % JOB TITLE
+
+\begin{document}
+\import{sections/}{_header}
+
+% \import{sections/}{objective}
+% \vspace*{7pt}
+
+
+    \textbf{\Large Education} 
+\vspace{3pt}
+\hrule
+\vspace{3pt}
+\import{sections/}{education}
+\vspace*{7pt}
+
+
+
+
+% \textbf{\Large{Projects }}
+% \vspace*{3pt}
+% \import{sections/}{projectsummary}
+% \vspace*{7pt}
+
+
+    \textbf{\Large Projects}
+
+\hrule
+
+\vspace*{3pt}
+\import{sections/}{projects}
+\vspace*{7pt}
+
+
+% \section{\textbf{Teaching/Volunteer Experiences}}
+% \hrule
+% \vspace*{3pt}
+% \import{sections/}{teaching}
+% \vspace*{7pt}
+
+\section{\textbf{Skills}}
+\vspace{0.5}
+
+\hrule
+
+\vspace*{7pt}
+\import{sections/}{skills}
+\vspace*{7pt}
+
+\begin{comment}
+
+\section{Certifications}
+\import{sections/}{certifications}
+\vspace*{7pt}
+\end{comment}
+
+\begin{comment}
+\section{Publications}
+\import{sections/}{publications}
+\vspace*{7pt}
+\end{comment}
+
+% \section{Hobbies}
+% \import{sections/}{hobbies}
+
+\end{document}
