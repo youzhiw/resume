@@ -1,3 +1,6 @@
 texput.fls
 resume.fdb_latexmk
 sections/projects.log
+sections/projects.fdb_latexmk
+sections/projects.aux
+sections/projects.fls
